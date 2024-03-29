@@ -1,0 +1,170 @@
+
+footer{
+    background-color: #111111;
+    padding: 40px 0 0;
+}
+    .footer-container{
+        width: 92%;
+        margin: 0 auto;
+    }
+        .sub-footer-1{
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 30px;
+        }
+            .footer-content{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 80px;
+            }
+                .footer-items{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                }
+                    .footer-items h4{
+                        font-weight: 300;
+                        font-size: 0.8rem;
+                        color: white;
+                    }
+                        .footer-items h4 a{
+                            color: white;
+                            text-decoration: none;
+                        }
+                    .footer-links{
+                        color: #6b6b6b;
+                        font-size: 0.7rem;
+                        text-decoration: none;
+                    }
+                    .footer-links:hover{
+                        color: white;
+                    }
+                .footer-socials{
+                    display: flex;
+                    justify-content: flex-end;
+                    flex-wrap: wrap;
+                    gap: 10px;
+                    cursor: pointer;
+                }
+                    .social-link-icon{
+                        fill: #6d6d6d;
+                        border-radius: 50%;
+                    }
+                    .social-link-icon:hover{
+                        fill: white;
+                }
+        .sub-footer-2{
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+            .copyright-content{
+                display: flex;
+                gap: 20px;
+            }
+                .country{
+                    display: flex;
+                    gap: 10px;
+                    font-size: 0.8rem;
+                }
+                .country span{
+                    color: white;
+                }
+                .copyright-NIKE{
+                    color: #d2d2d2;
+                    font-size: 0.8rem;
+            }
+            .policy-container{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+
+@media (max-width : 940px) {
+
+    .nav-categories{
+        display: none;
+    }
+    .search-bar input{
+        width: 100px;
+        padding-left: 30px;
+    }
+    .search-bar input::placeholder{
+        font-size: 0;
+    }
+    .search-bar button{
+        left : 20px;
+    }
+    .about-card p{
+        font-size: 2.5rem;
+    }
+    .trending-items{
+        min-height: 400px;
+    }
+    .trending-content{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .trending-about h3{
+        font-size: 1.2rem;
+    }
+    .trending-about p{
+        font-size: 0.8rem;
+    }
+    .trending-items button{
+        padding: 5px 20px;
+        font-size: 0.7rem;
+    } 
+    .iconic-content{
+        height: 240px;
+    }
+    .iconic-items-image{
+        height: 200px;
+        width: 200px;
+    }
+    .iconic-items.initial h3,
+    .iconic-items.active h3{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1rem;
+    }
+    .iconic-items.prev{
+        left: calc(50% - 110px);
+    }
+    .iconic-items.next{
+        left: calc(50% + 110px);
+    }
+    .iconic-items.oldPrev{
+        left: calc(50% - 320px);
+    }   
+    .iconic-items.oldNext{
+        left: calc(50% + 320px);
+    }
+    .sub-footer-1{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-content{
+        gap: 10px;
+    }
+    .footer-items{
+        flex-direction: column;
+    }
+                
+    .footer-socials{
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .sub-footer-2{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .copyright-content{
+        text-align: center;
+    }
+    
+    .policy-container{
+        justify-content: center;
+    }  
+}

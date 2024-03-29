@@ -1,0 +1,54 @@
+/* Navigation Bar CSS */
+nav{
+    width: 95%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+    .navbar-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+        .brand-logo{
+            display: flex;
+            align-items: center;
+            margin: 0;
+            height: 30px;
+            width: 70px;
+            overflow: hidden;
+        }
+        .nav-categories a{
+            text-decoration: none;
+            color: black;
+            font-weight: 500;
+            font-size: 1rem;
+            margin: 0 10px;
+        }
+        .nav-links{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .search-bar{
+            position: relative;
+        }
+        .search-bar input{
+                padding: 12px 12px;
+                padding-left: 40px;
+                border-radius: 30px;
+                background-color: rgb(243, 243, 243);
+                border: none;
+            }
+            .search-bar input::placeholder{
+                color: rgb(156, 156, 156);
+                font-weight: 700;
+                font-size: 1rem;
+            }
+            .search-bar button{
+                position: absolute;
+                top: 50%;
+                left : 10%;
+                transform: translate(-50%,-50%);
+                background-color: transparent;
+                border: none;
+            }
