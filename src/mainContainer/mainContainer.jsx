@@ -2,6 +2,7 @@ import Ad from './Ad.jsx'
 import Featured  from './Featured.jsx'
 import Trending from './Trending.jsx'
 import NewAdditions from './NewAdditions.jsx';
+import ShopBySports from './ShopBySport.jsx';
 function MainContainer(){
     return (
         <main>
@@ -9,6 +10,7 @@ function MainContainer(){
             <Featured />
             <Trending />
             <NewAdditions />
+            <ShopBySports />
         </main>
     )
 }
