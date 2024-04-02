@@ -3,6 +3,7 @@ import Featured  from './Featured.jsx'
 import Trending from './Trending.jsx'
 import NewAdditions from './NewAdditions.jsx';
 import ShopBySports from './ShopBySport.jsx';
+import MemberBenefits from './MemberBenefits.jsx';
 function MainContainer(){
     return (
         <main>
@@ -11,6 +12,7 @@ function MainContainer(){
             <Trending />
             <NewAdditions />
             <ShopBySports />
+            <MemberBenefits />
         </main>
     )
 }

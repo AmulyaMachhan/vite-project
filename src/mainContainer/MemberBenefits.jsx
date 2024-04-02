@@ -1,4 +1,10 @@
 import './mainContainer.css'
+import image1 from '../assets/img/member.png'
+import image2 from '../assets/img/member-2.png'
+import image3 from '../assets/img/member-3.png'
+import image4 from '../assets/img/member-4.png'
+import image5 from '../assets/img/member-5.png'
+import image6 from '../assets/img/member-6.png'
 
 function MemberBenefits(){
     return(
@@ -7,7 +13,7 @@ function MemberBenefits(){
         <div className="member-content">
             <div className="member-items">
                 <div className="background-image">
-                    <img src="images/member.png" alt="" />
+                    <img src={image1} alt="" />
                 </div>
                 <div className="member-about">
                     <h3>Member Product</h3>
@@ -17,7 +23,7 @@ function MemberBenefits(){
             </div>
             <div className="member-items">
                 <div className="background-image">
-                    <img src="images/member-2.png" alt="" />
+                    <img src={image2} alt="" />
                 </div>
                 <div className="member-about">
                     <h3>Nike By You</h3>
@@ -27,7 +33,7 @@ function MemberBenefits(){
             </div>
             <div className="member-items">
                 <div className="background-image">
-                    <img src="images/member-3.png" alt="" />
+                    <img src={image3} alt="" />
                 </div>
                 <div className="member-about">
                     <h3>Member Rewards</h3>
@@ -37,7 +43,7 @@ function MemberBenefits(){
             </div>
             <div className="member-items">
                 <div className="background-image">
-                    <img src="images/member-4.png" alt="" />
+                    <img src={image4} alt="" />
                 </div>
                 <div className="member-about">
                     <h3>Member Days</h3>
@@ -47,7 +53,7 @@ function MemberBenefits(){
             </div>
             <div className="member-items">
                 <div className="background-image">
-                    <img src="images/member-5.png" alt="" /> 
+                    <img src={image5} alt="" /> 
                 </div>
                 <div className="member-about">
                     <h3>Sport & Wellness Apps</h3>
@@ -57,7 +63,7 @@ function MemberBenefits(){
             </div>
             <div className="member-items">
                 <div className="background-image">
-                    <img src="images/member-6.png" alt="" />
+                    <img src={image6} alt="" />
                 </div>
                 <div className="member-about">
                     <h3>SNKRS</h3>
