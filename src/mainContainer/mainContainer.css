@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Nike Futura ND";
-    src: url(NikeFuturaND/NikeFuturaND.ttf) format("truetype");
+    src: url("../fonts/NikeFuturaND/NikeFuturaND.ttf") format("truetype");
   }
   @font-face {
     font-family: 'Helvetica';
-    src: url('Helvetica/HelveticaNowText-ExtraLight.ttf') format('truetype');
+    src: url('../fonts/') format('truetype');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -12,7 +12,7 @@
   
   @font-face {
     font-family: 'Helvetica';
-    src: url('Helvetica/HelveticaNowText-ExtLtIta.ttf') format('truetype');
+    src: url('../fonts/Helvetica/HelveticaNowText-ExtLtIta.ttf') format('truetype');
     font-weight: 300;
     font-style: italic;
     font-display: swap;
@@ -20,7 +20,7 @@
   
   @font-face {
     font-family: 'Helvetica';
-    src: url('Helvetica/HelveticaNowText-ExtBdIta.ttf') format('truetype');
+    src: url('../fonts/Helvetica/HelveticaNowText-ExtBdIta.ttf') format('truetype');
     font-weight: 900;
     font-style: italic;
     font-display: swap;
@@ -28,7 +28,7 @@
   
   @font-face {
     font-family: 'Helvetica';
-    src: url('Helvetica/HelveticaNowText-ExtraBold.ttf') format('truetype');
+    src: url('../fonts/Helvetica/HelveticaNowText-ExtraBold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -36,7 +36,7 @@
   
   @font-face {
     font-family: 'Helvetica';
-    src: url('Helvetica/HelveticaNowText-Light.ttf') format('truetype');
+    src: url('../fonts/Helvetica/HelveticaNowText-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -44,7 +44,7 @@
   
   @font-face {
     font-family: 'Helvetica';
-    src: url('Helvetica/HelveticaNowText-RegIta.ttf') format('truetype');
+    src: url('../fonts/Helvetica/HelveticaNowText-RegIta.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
@@ -52,7 +52,7 @@
   
   @font-face {
     font-family: 'Helvetica';
-    src: url('Helvetica/HelveticaNowText-Regular.ttf') format('truetype');
+    src: url('../fonts/Helvetica/HelveticaNowText-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -60,7 +60,7 @@
   
   @font-face {
     font-family: 'Helvetica';
-    src: url('Helvetica/HelveticaNowText-MediumItalic.ttf') format('truetype');
+    src: url('../fonts/Helvetica/HelveticaNowText-MediumItalic.ttf') format('truetype');
     font-weight: 500;
     font-style: italic;
     font-display: swap;
@@ -68,7 +68,7 @@
   
   @font-face {
     font-family: 'Helvetica';
-    src: url('Helvetica/HelveticaNowText-LightItalic.ttf') format('truetype');
+    src: url('../fonts/Helvetica/HelveticaNowText-LightItalic.ttf') format('truetype');
     font-weight: 300;
     font-style: italic;
     font-display: swap;
@@ -76,7 +76,7 @@
   
   @font-face {
     font-family: 'Helvetica';
-    src: url('Helvetica/HelveticaNowText-Medium.ttf') format('truetype');
+    src: url('../fonts/Helvetica/HelveticaNowText-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -84,7 +84,7 @@
   
   @font-face {
     font-family: 'Helvetica';
-    src: url('Helvetica/HelveticaNowText-Thin.ttf') format('truetype');
+    src: url('../fonts/Helvetica/HelveticaNowText-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
@@ -92,7 +92,7 @@
   
   @font-face {
     font-family: 'Helvetica';
-    src: url('Helvetica/HelveticaNowText-BoldItalic.ttf') format('truetype');
+    src: url('../fonts/Helvetica/HelveticaNowText-BoldItalic.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
     font-display: swap;
@@ -100,7 +100,7 @@
   
   @font-face {
     font-family: 'Helvetica';
-    src: url('Helvetica/HelveticaNowText-Black.ttf') format('truetype');
+    src: url('../fonts/Helvetica/HelveticaNowText-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -108,7 +108,7 @@
   
   @font-face {
     font-family: 'Helvetica';
-    src: url('Helvetica/HelveticaNowText-BlackItalic.ttf') format('truetype');
+    src: url('../fonts/Helvetica/HelveticaNowText-BlackItalic.ttf') format('truetype');
     font-weight: 900;
     font-style: italic;
     font-display: swap;
@@ -116,7 +116,7 @@
   
   @font-face {
     font-family: 'Helvetica';
-    src: url('Helvetica/HelveticaNowText-Bold.ttf') format('truetype');
+    src: url('../fonts/Helvetica/HelveticaNowText-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -124,7 +124,7 @@
   
   @font-face {
     font-family: 'Helvetica';
-    src: url('Helvetica/HelveticaNowText-ThinItalic.ttf') format('truetype');
+    src: url('../fonts/Helvetica/HelveticaNowText-ThinItalic.ttf') format('truetype');
     font-weight: 100;
     font-style: italic;
     font-display: swap;
