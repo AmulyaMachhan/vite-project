@@ -286,12 +286,12 @@ main{
         .iconic-items{
             position: absolute;
             top: 0;
+            left: 50%;
             transform: translateX(-50%);
-            opacity: 0;
             height: 350px;
             gap: 10px;
             z-index: -1;
-            transition: opacity 0.2s;
+            transition: all 0.5s smooth;
         }
             .iconic-items h3{
                 padding: 20px 0;
@@ -327,27 +327,7 @@ main{
             font-weight: 500;
             font-size: 1.2rem;
         }
-        
-        .iconic-items.prev{
-            left: calc(50% - 170px);
-            opacity: 0.9;
-            transform: translateX(-100%);
-        }
-        .iconic-items.next{
-            left: calc(50% + 170px);
-            opacity: 0.9;
-            transform: translateX(0);
-        }
-        .iconic-items.oldPrev{
-            left: calc(50% - 480px);
-            opacity: 0.9;
-            transform: translateX(-100%);
-        }   
-        .iconic-items.oldNext{
-            left: calc(50% + 480px);
-            opacity: 0.9;
-            transform: translateX(0);
-        }  
+  
     .left,
     .right{
         position: absolute;
