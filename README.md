@@ -5,8 +5,7 @@ This project is a clone of the Nike website built using Vite. It aims to replica
 ## Demo
 
 You can access the live demo of the Nike Clone Website [here](https://amulyamachhan.github.io/vite-project/).
-
-![localhost_5173_ (2)](https://github.com/AmulyaMachhan/vite-project/assets/111338400/1040998e-9c1e-4fb4-810d-7a76bdf6ac78)
+![nike](https://github.com/AmulyaMachhan/vite-project/assets/111338400/ef482ce3-e4a5-45cc-80a9-8b2f8484481a)
 
 ## Features
 
