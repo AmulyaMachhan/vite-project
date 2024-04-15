@@ -3,13 +3,13 @@ import './mainContainer.css';
 
 function IconicShoes() {
     const itemsData = [
-        { image: "./vite-project/src/assets/img/shoes-1.png", name: "Air Force 1" },
-        { image: "./vite-project/src/assets/img/shoes-2.png", name: "Air Jordan 1" },
-        { image: "./vite-project/src/assets/img/shoes-3.png", name: "Air Max" },
-        { image: "./vite-project/src/assets/img/shoes-4.png", name: "Dunk" },
-        { image: "./vite-project/src/assets/img/shoes-5.png", name: "Nike Blazer" },
-        { image: "./vite-project/src/assets/img/shoes-6.png", name: "Metcon" },
-        { image: "./vite-project/src/assets/img/shoes-7.png", name: "Pegasus Running Shoes" },
+        { image: "./src/assets/img/shoes-1.png", name: "Air Force 1" },
+        { image: "./src/assets/img/shoes-2.png", name: "Air Jordan 1" },
+        { image: "./src/assets/img/shoes-3.png", name: "Air Max" },
+        { image: "./src/assets/img/shoes-4.png", name: "Dunk" },
+        { image: "./src/assets/img/shoes-5.png", name: "Nike Blazer" },
+        { image: "./src/assets/img/shoes-6.png", name: "Metcon" },
+        { image: "./src/assets/img/shoes-7.png", name: "Pegasus Running Shoes" },
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
