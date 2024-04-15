@@ -1,15 +1,22 @@
 import  { useState } from 'react';
 import './mainContainer.css';
+import image1 from '../assets/img/shoes-1.png'
+import image2 from '../assets/img/shoes-2.png'
+import image3 from '../assets/img/shoes-3.png'
+import image4 from '../assets/img/shoes-4.png'
+import image5 from '../assets/img/shoes-5.png'
+import image6 from '../assets/img/shoes-6.png'
+import image7 from '../assets/img/shoes-7.png'
 
 function IconicShoes() {
     const itemsData = [
-        { image: "./src/assets/img/shoes-1.png", name: "Air Force 1" },
-        { image: "./src/assets/img/shoes-2.png", name: "Air Jordan 1" },
-        { image: "./src/assets/img/shoes-3.png", name: "Air Max" },
-        { image: "./src/assets/img/shoes-4.png", name: "Dunk" },
-        { image: "./src/assets/img/shoes-5.png", name: "Nike Blazer" },
-        { image: "./src/assets/img/shoes-6.png", name: "Metcon" },
-        { image: "./src/assets/img/shoes-7.png", name: "Pegasus Running Shoes" },
+        { image: image1, name: "Air Force 1" },
+        { image: image2, name: "Air Jordan 1" },
+        { image: image3, name: "Air Max" },
+        { image: image4, name: "Dunk" },
+        { image: image5, name: "Nike Blazer" },
+        { image: image6, name: "Metcon" },
+        { image: image7, name: "Pegasus Running Shoes" },
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
